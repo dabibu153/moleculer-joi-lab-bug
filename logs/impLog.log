@@ -1,0 +1,8 @@
+{"type":"error","apiLog":true,"message":"this is a api called error message","mod":"chp"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}
+{"type":"error","apiLog":false,"message":"NATS error.","mod":"transporter"}

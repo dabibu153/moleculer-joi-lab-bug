@@ -1,0 +1,33 @@
+{
+  "name": "moleculer-project",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "main": "services/greeter.service.js",
+  "scripts": {
+    "development": "moleculer-runner --repl --instances 1 services",
+    "start": "moleculer-runner --repl --instances 1 services/api.service.js",
+    "test1": "moleculer-runner --repl --instances 1 services/champions.service.js",
+    "test2": "moleculer-runner --repl --instances 1 services/tools.service.js",
+    "queue": "moleculer-runner --repl --instances 1 services/queue.service.js",
+    "lab": "moleculer-runner --repl --instances 1 services/lab.service.js"
+  },
+  "devDependencies": {
+    "moleculer-repl": "^0.5.3",
+    "nodemon": "1.18.4"
+  },
+  "dependencies": {
+    "@moleculer/lab": "^0.6.0",
+    "joi": "^17.4.2",
+    "moleculer": "^0.14.8",
+    "moleculer-bull": "^0.2.8",
+    "moleculer-db": "^0.8.15",
+    "moleculer-db-adapter-mongoose": "^0.8.11",
+    "moleculer-web": "^0.8.0",
+    "mongoose": "^5.13.9",
+    "nats": "1.3",
+    "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
